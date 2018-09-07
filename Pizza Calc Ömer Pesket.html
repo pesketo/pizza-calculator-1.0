@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    Pizza Calculator Pesketo    
+    </title>
+    <h1 style="margin-left:600px;">Pizzeria di Omeria</h1>
+   <script>
+//Ömer Pesket Applicatie-Ontwikkeling
+   var prijsS = 3; 
+   var prijsM = 5;
+   var prijsL = 11;
+
+   var s = prompt("Hoeveel small pizza's wilt u? (12cm)");
+   var m = prompt("Hoeveel medium pizza's wilt u? (15cm)");
+   var l = prompt("Hoeveel large pizza's wilt u? (20cm)");
+
+   var totalS = s * prijsS;
+   var totalM = m * prijsM;
+   var totalL = l * prijsL;
+   var total = totalS + totalM + totalL;
+
+   document.write("Totale small pizza('s) zijn er: " + s + "<br>" + "Totale prijs van de small pizza's &euro;" + totalS + "<br>" + "<br>");
+   document.write("Totale medium pizza('s) zijn er: " + m + "<br>" + "Totale prijs van de medium pizza's &euro;" + totalM + "<br>" + "<br>");
+   document.write("Totale large pizza('s) zijn er: " + l + "<br>" + "Totale prijs van de large pizza's &euro;" + totalL + "<br>" + "<br>");
+   document.write("Totale prijs van alle pizza's &euro; " + total + "<br>");
+   document.write(l + " large pizza('s), " + m + " medium pizza('s)" + " en " + s + " small pizza('s) " );
+
+   </script>
+</head>
+<style>
+	body 
+{
+   	background-color: black;
+   	color: white;
+   	font-size: 42px;
+   	font-family: cursive;
+}
+</style>
+</body>
+</html>
